@@ -1,0 +1,85 @@
+body {
+    background-image: url(images/yuri.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    .white{color: rgb(255, 255, 255);}
+#start {
+    margin-top: 500px;
+}
+    h3 {
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      margin: 20px;
+      padding: 15px;}
+
+    p {color: white;
+    text-shadow: 2px 2px rgb(112, 100, 129)}
+
+  h2{text-shadow:2px 2px white;}
+  .container {
+  .red {color: rgb(173, 34, 34);
+  text-shadow: 3px 2px rgb(102, 6, 28);}
+  p{text-shadow: 2px 2px rgb(112, 100, 129);}
+  display: inline-block;
+  margin:20px;
+  padding: 10px;
+  width: 300px;
+  button {background-image: url(images/button.png);
+  background-position:center;
+  background-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+
+#c {background-image: url(images/look.png);
+  background-position:top;}
+#c1{background-position: center;
+background-image: url(images/look.png);}
+
+#c2 {background-position:left;
+background-image: url(images/look.png);}
+
+#poem {background-image: url(images/end.jpeg);
+background-position:right;
+text-align: center;}
+#pun
+  {margin: auto;
+  width: 50%;;
+  display: block;}
+
+#output{
+    background-image: url(images/DSCN4113.jpg);
+    background-position: center;
+    background-size: 600px;
+    padding: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px white;
+}
+#jstuff{
+    display: inline-block;}
+#output1{
+    margin: 20px;
+    padding: 10px;
+    background-image: url(images/mono.jpg);
+}
+#output2{
+    background-image: url(images/DSCN4114.jpg);
+    background-position: center;
+    padding: 50px;
+    background-size: 300px;
+    #pclick{
+    color: rgb(1, 22, 98);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/mono.jpg);
+    background-size: 150px;
+    background-position: right;
+    font-weight: 1000;
+    padding: 10px;}
+}
+#output3 {
+    background-image: url(images/IMG_4506.png);
+    margin-top: 50px;
+    background-size: 200px;
+    padding: 200px;
+}
+}

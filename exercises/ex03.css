@@ -1,0 +1,47 @@
+body {
+
+.container {
+    font-family: sans-serif;
+    display:grid;
+    background-image: url(DSCN4114.JPG);
+    border: 6px rgba(255, 255, 255, 0.623);
+    border-style:dotted;
+    background-position:center;
+    background-size: 75px;
+    padding: 20px;
+    margin: 20px;
+    text-shadow: 2px 2px 1px rgb(84, 4, 47);
+    color: rgb(203, 184, 255);
+}
+
+button{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aliceblue;
+    background-image: url(flowerfestival.png);
+    background-position: top;
+    margin-top: 10px;
+    
+}
+.special{
+    background-image:url(alienlong1.png);
+    background-position: bottom;
+}
+
+div h2{
+    color: rgb(236, 224, 233);
+}
+div h2:hover{
+    color: rgb(150, 19, 117);
+    background-color: rgba(240, 248, 255, 0.826);
+}
+
+h2:hover {
+    color: aqua;
+    background-color: rgba(71, 9, 177, 0.45);
+}
+.myflex{
+    display:flex;
+}
+
+
+}

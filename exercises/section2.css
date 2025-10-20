@@ -1,0 +1,51 @@
+body{
+background-image: url(images/DSCN4113.JPG);
+background-position: center;
+color: rgb(11, 38, 88);
+text-shadow: 2px 2px rgb(81, 104, 255);}
+
+#masterdiv{
+display: flex;
+.container{
+display: flex;
+h2 {background-color: chocolate;
+    padding: 50px;
+    max-height: fit-content;}
+ 
+p{text-align: right;
+margin-left: 50px;
+background-color: rgb(38, 0, 255);
+padding: 20px;}
+}
+
+.container2{
+display: flex;
+margin-left: 50px;
+h2 {background-color: chocolate;
+    padding: 50px;
+    max-height: fit-content;}
+ 
+p{text-align: right;
+margin-left: 50px;
+background-color: rgb(38, 0, 255);
+padding: 20px;}}
+}
+
+.imageland{display: flex;
+#bb {background-image: url(images/waltpink.png);
+background-size: 70px;
+max-width: 300px;
+text-align: center;
+padding: 100px}
+#spam{font-weight: bold;
+color: aliceblue;
+background-image: url(images/hank.png);
+background-position: center;
+background-size: 50px;}
+#oguri{
+    margin-left: 20px;
+background-image: url(images/oguriwhatsapp.png);
+background-size: 150px;
+max-width: 500px;
+padding: 200px;}
+}

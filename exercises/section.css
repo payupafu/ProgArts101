@@ -1,0 +1,42 @@
+body {
+    .boxblue{
+        display:inline-block;
+        text-align:left;
+        background-color: blue;
+        padding: 60px;
+        color:rgb(19, 11, 77); 
+        border: 20px rgb(53, 53, 176);
+        border-style:inset
+    }
+      .boxgreen{
+        display:inline-block;
+        margin-right: auto;
+        background-color: rgb(66, 146, 95);
+        padding: 60px;
+        color:rgb(53, 79, 27);
+        border: 20px rgba(0, 66, 30, 0.623);
+        border-style:groove
+    }
+    .boxyellow{
+        display:inline-block;
+        text-align:right;
+        background-color: rgb(248, 251, 96);
+        padding: 60px;
+        color:rgb(139, 128, 38);
+        border: 12px rgba(18, 2, 2, 0.623);
+        border-style:double
+    }
+    .red{
+        display:inline-block;
+        text-align:left;
+        background-color: rgb(184, 65, 65);
+        padding: 60px;
+        color:rgb(56, 22, 96);
+        border: 10px rgba(114, 50, 50, 0.623);
+        border-style:dotted
+    }
+    .container{
+        display:grid;
+    }
+
+}
