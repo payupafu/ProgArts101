@@ -1,26 +1,45 @@
 body { 
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-background-image: url('exercises/images/mono.jpg');
+background-image: url('exercises/images/mono2.png');
+background-position: 50% 25%;
+background-size: 1500px;
 text-align: center;
 justify-content: center;
 display: block;
 }
 
-h1,h2 {color: rgb(9, 72, 96);}
+h1 {color: rgb(0, 0, 0);}
 
-#introduction h2 { font-style: italic;
-color: rgb(132, 53, 53);}
-
+h2 { font-style: italic;
+color: rgb(159, 91, 62);
+margin: 20px;}
+.emph {
+    font-weight: 600;
+    color:rgb(175, 37, 37);
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 10px;
+    padding: 10px;
+}
 #introduction p { 
     display: inline-block;
-    font-size: 150%;}
-
+    font-size: 120%;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 8px;
+    padding: 20px;
+}
+img {
+    margin: 30px;
+    border: 15px white;
+    border-style:solid;
+}
 p, li {
-    background-color:rgba(211, 245, 248, 0.712);
-    padding-top: 5px;
-    color:rgb(51, 67, 148); 
-    border: 5px rgba(50, 71, 179, 0.479);
+    background-color:rgba(240, 243, 230, 0.895);
+    padding: 5px;
+    color:rgb(91, 49, 42); 
+    border: 3px rgba(209, 169, 147, 0.479);
     border-style:dotted;
+    border-radius: 10px;
     max-width: 800px;
 }
 p{
@@ -31,5 +50,17 @@ p{
 .navigation {
 display: flex;
 justify-content: center;
-gap: 50px;
+gap: 80px;
+
 }
+#links{
+background-image: url(exercises/images/grid.jpg);
+p, li{
+    color: black;
+    background-color: aliceblue;
+}
+max-width: 900px;
+display: inline-block;
+padding: 20px;
+}
+

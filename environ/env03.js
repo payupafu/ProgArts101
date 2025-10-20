@@ -17,7 +17,8 @@ let found = ['My plush bunny',
 'Chunky snap-together blocks',
 'LCD graffiti notepad',
 'Mini room makeover craft set',
-'Roll-out sketch strip with crayons',]
+'Roll-out sketch strip with crayons',
+'you made it to the end']
 
 
 $("#output").html(title);
