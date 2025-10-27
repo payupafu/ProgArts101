@@ -1,14 +1,23 @@
 let count = 0;
-let colors = ["Orchid", "Coral", "Hot pink", "Plum"];
+
+let colors = ["Orchid", "Coral", "HotPink", "Plum"];
 $("#needy").click( function() {
-   $("#needy").html(count + " clicks, "+ colors[count]);
    
+   $("#needy").html(count + " clicks, "+ colors[count]);
+
 $("body").css("background-color", colors[count]);
    count = count + 1;
 
+let colorssize=colors.length;
+
+if (count == 4)
+   $('#needy').html(colorssize + ' clicks made, termination');
+if (count > 5)
+   $('#needy').html('jk lol' + nekodesu.name)
+
 });
 
-let colorssize=colors.length;
+
 
 let nekodesu = {
 name: "pekoe",

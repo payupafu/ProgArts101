@@ -1,0 +1,114 @@
+body {
+    background-image: url(images/yuri.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    .white{color: rgb(255, 255, 255);
+    display: inline-block;}
+    img {
+      border: 10px rgb(255, 255, 255);
+      border-style:solid;
+      margin: 20px;
+    }
+
+
+#imagepool 
+{display: block;}
+
+
+#start {
+    margin-top: 500px;}
+    h3 {
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      margin: 20px;
+      padding: 15px;}
+
+    p {color: white;
+    text-shadow: 2px 2px rgb(112, 100, 129)}
+
+    h2{text-shadow:2px 2px white;}
+
+    .container {
+        .red {color: rgb(173, 34, 34);
+        text-shadow: 3px 2px rgb(102, 6, 28);}
+        p{text-shadow: 2px 2px rgb(112, 100, 129);
+        display: inline-block;
+        margin:20px;
+        padding: 10px;
+        width: 300px;}
+        button {background-image: url(images/button.png);
+        background-position:center;
+        background-size: 100px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+}
+
+
+#c {
+    background-image: url(images/look.png);
+    background-position:top;}
+
+#c1{
+    background-position: center;
+    background-image: url(images/look.png);}
+
+#c2 {
+    background-position:left;
+    background-image: url(images/look.png);}
+
+#poem {
+    background-image: url(images/end.jpeg);
+    background-position:right;
+    text-align: center;}
+
+#pun
+  {margin: auto;
+  width: 50%;;
+  display: block;}
+
+#output{
+    background-image: url(images/mono2.png);
+    background-position: center;
+    background-size: 600px;
+    padding: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px white;
+    border: 5px whitesmoke;
+    border-style: solid;
+}
+#output1{
+    margin: 20px;
+    padding: 10px;
+    background-image: url(images/mono.jpg);
+}
+#output2{
+    background-image: url(images/DSCN4114.jpg);
+    background-position: center;
+    padding: 50px;
+    background-size: 300px;
+#butclick{
+    color: rgb(1, 22, 98);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/mono.jpg);
+    background-size: 150px;
+    background-position: right;
+    font-weight: 1000;
+    padding: 10px;}
+}
+#output3 {
+    background-image: url(images/IMG_4506.png);
+    background-size: 200px;
+    padding: 100px;
+    .color-button {
+    background-image: url(images/moomin.png);
+    background-position: 80% 59%;
+    background-size:800px;
+    padding: 20px;
+    color:rgb(180, 6, 6);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+}
+
+}

@@ -2,10 +2,19 @@ body {
     background-image: url(images/yuri.jpg);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    .white{color: rgb(255, 255, 255);}
-#start {
-    margin-top: 500px;
+    .white{color: rgb(255, 255, 255);
+    display: inline-block;}
+    img {
+      border: 10px rgb(255, 255, 255);
+      border-style:solid;
+      margin: 20px;
+    }
+#imagepool {
+display: block;
+
 }
+#start {
+    margin-top: 500px;}
     h3 {
       color: rgb(255, 255, 255);
       background-color: rgb(0, 0, 0);
@@ -55,8 +64,6 @@ text-align: center;}
     font-style: italic;
     text-shadow: 2px 2px white;
 }
-#jstuff{
-    display: inline-block;}
 #output1{
     margin: 20px;
     padding: 10px;
