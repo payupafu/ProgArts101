@@ -3,7 +3,7 @@ let colorCount = 0;
 var colors = ["Orchid", "Coral", "HotPink", "Plum"];
 
 $(".color-button").click(function () {
-   paintPage(this.id);
+   $("body").css("background-color", colors[colorCount]);
 });
 
 
