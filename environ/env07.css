@@ -1,0 +1,135 @@
+body {
+    background-image: url(images/llback.gif);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    .white{color: rgb(255, 255, 255);
+    display: inline-block;}
+
+
+#output{
+    background-image: url(images/IMG_0515.png);
+    background-position: 45% 25%;
+    background-size: 600px;
+    padding: 20px;
+    color: rgb(194, 255, 183);
+    text-shadow: 2px 2px rgb(0, 47, 100);
+    border: 5px whitesmoke;
+    border-style: solid;
+}
+#output1{
+    border: 5px rgba(97, 63, 197, 0.482);
+    border-style: dotted;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-image: url(images/moomin.png);
+    background-size: 250px;
+    #flowerheader {
+    display: block;
+    justify-content: center;
+    }
+}
+#output2{
+    display: flex;
+    border: 11px green;
+    border-style:groove;
+    background-image: url(images/bugs.jpg);
+    background-position: center;
+    padding: 50px;
+    background-size: 300px;
+    justify-content: center;
+    margin: 20px;
+    #butclick{
+    color: rgb(1, 22, 98);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/bubbles.gif);
+    background-size: 150px;
+    background-position: right;
+    font-weight: 1000;
+    padding: 10px;}
+
+}
+.eye { 
+    height: 18px; 
+    width: 10px; 
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    background: #fff;
+    padding: 2px;}
+
+#imagepool 
+{display: block;}
+
+#output3 {
+    border: 6px palevioletred;
+    border-style: dashed;
+    background-image: url(images/lldiv1.gif);
+    background-size: 200px;
+    padding: 50px;
+    width: 800px;
+    color: rgb(37, 22, 112);
+    margin:auto;
+    #title423{
+        background-image: url(images/daisy.jpg);
+    }
+    .color-button {
+    background-image: url(images/flowerback.gif);
+    background-position: 80% 59%;
+    background-size:100px;
+    padding: 20px;
+    color:rgb(180, 6, 6);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}}
+
+#start {
+    margin-top: 100px;
+    #start, h3 {
+      color: rgb(255, 255, 255);
+      padding: 15px;
+    background-color: black;}
+
+    p {color: white;
+    text-shadow: 2px 2px rgb(112, 100, 129)}
+    }
+    h2{text-shadow:2px 2px white;}
+
+    .container {
+    .red {color: rgb(173, 34, 34);
+    text-shadow: 3px 2px rgb(102, 6, 28);}
+    p{text-shadow: 2px 2px rgb(112, 100, 129);}
+    display: inline-block;
+    margin:20px;
+    padding: 10px;
+    width: 300px;
+    button {background-image: url(images/button.png);
+    background-position:center;
+    background-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+
+
+#c {
+    background-image: url(images/look.png);
+    background-position:top;}
+
+#c1{
+    background-position: center;
+    background-image: url(images/look.png);}
+
+#c2 {
+    background-position:left;
+    background-image: url(images/look.png);}
+
+#poem {
+    background-image: url(images/end.jpeg);
+    background-position:right;
+    text-align: center;}
+
+#pun
+  {margin: auto;
+  width: 50%;;
+  display: block;}
+  }
